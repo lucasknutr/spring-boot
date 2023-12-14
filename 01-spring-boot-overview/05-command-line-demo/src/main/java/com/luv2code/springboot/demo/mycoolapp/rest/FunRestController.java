@@ -27,6 +27,10 @@ public class FunRestController {
         return "Today is your lucky day.";
     }
 
+    @GetMapping("/wow")
+    public String wow() {
+        return "wow!!!!";
+    }
 }
 
 
